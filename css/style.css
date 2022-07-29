@@ -135,7 +135,7 @@ input[type=text], input[type=date], .btn-submit:focus {
     height: 40px;
     width: 32px;
 
-    background: url('../assets/trashOutline.jpg');
+    background: url('../assets/trashOutline.png');
     background-size: contain;
     margin-left: 16px;
     cursor: pointer;

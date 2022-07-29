@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Apps</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header style="text-align: center">
+  <h1>Todo List App by R Van Jaya</h1>
+</header>
+
+<div class="wrapper">
+  <div class="container bg-white shadow" id="add-todo">
+    <h2 class="container-header text-center">Add to do</h2>
+    <form class="form" action="#" id="form">
+      <div class="form-group form-title">
+        <label for="title">Input Your Task</label>
+        <input type="text" id="title" name="title" required>
+      </div>
+      <div class="form-group form-title">
+        <label for="date">Input Deadline Task</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <input type="submit" value="Submit" name="Submit" class="btn-submit">
+    </form>
+  </div>
+
+  <div class="container">
+    <h2 class="container-header">Task</h2>
+    <div class="list-item" id="todos"></div>
+  </div>
+  <div class="container">
+    <h2 class="container-header">Done</h2>
+    <div class="list-item" id="completed-todos">
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
